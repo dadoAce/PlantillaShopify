@@ -1,1 +1,221 @@
-{"sections":{"image_banner":{"type":"image-banner","blocks":{"heading":{"type":"heading","settings":{"heading":"Talk about your brand","heading_size":"medium"}},"button":{"type":"buttons","settings":{"button_label_1":"Shop all","button_link_1":"shopify:\/\/collections\/all","button_style_secondary_1":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["heading","button"],"settings":{"image":"shopify:\/\/shop_images\/46471289_l.jpg","adapt_height_first_image":false,"desktop_text_box_position":"flex-end","show_text_box":true,"image_overlay_opacity":0,"color_scheme":"background-1","stack_images_on_mobile":true,"show_text_below":true}},"1635975759fb3226ff":{"type":"custom-liquid","settings":{"custom_liquid":"<iframe class=\"jebbit-iframe\" src=\"https:\/\/dadoroom.jebbit.com\/pha3lojm?L=Owned+Web&deferred=true\" seamless=\"true\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen style=\"width:100%;min-height:600px;\" onload=\"function embedJebbit(t){function e(t){var e='attach'===t?window.addEventListener:window.removeEventListener;e('DOMContentLoaded',i,!1),e('load',i,!1),e('scroll',i,!1),e('resize',i,!1)}var n=document.querySelector(t);function i(){(function(t){var e=t.getBoundingClientRect(),n=t.clientHeight\/2,i=t.clientWidth\/2;return e.top>=0&&e.left>=0&&e.top<=(window.innerHeight||document.documentElement.clientHeight)-n&&e.left<=(window.innerWidth||document.documentElement.clientWidth)-i})(n)&&n.contentWindow.postMessage('startJebbitCampaign','*')}window.addEventListener('message',function(t){t&&('jebbitSessionCreated'===t.data?e('remove'):'jebbitCampaignLoaded'===t.data?i():t.data&&'redirect'===t.data.action&&t.data.options&&t.data.options.link&&(window.location.href=t.data.options.link))},!1),e('attach')}embedJebbit('.jebbit-iframe');\"><\/iframe>"}},"rich_text":{"type":"rich-text","blocks":{"heading":{"type":"heading","settings":{"heading":"Talk about your brand","heading_size":"h1"}},"text":{"type":"text","settings":{"text":"<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"}},"button":{"type":"button","settings":{"button_label":"Button label","button_link":"","button_style_secondary":false}}},"block_order":["heading","text","button"],"settings":{"color_scheme":"inverse","full_width":true}},"collage":{"type":"collage","blocks":{"video":{"type":"video","settings":{"cover_image":"shopify:\/\/shop_images\/cocinillas_256488018_116391477_1706x960_f7fbbf3b-b7b9-49a1-a9f7-f77b84b2f73f.jpg","video_url":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","description":"Describe the video","image_padding":false}},"product":{"type":"product","settings":{"product":"","second_image":false,"image_padding":false,"secondary_background":false}},"collection":{"type":"collection","settings":{"collection":"","image_padding":false,"color_scheme":"background-1"}}},"block_order":["video","product","collection"],"settings":{"heading":"Multimedia collage","desktop_layout":"left","mobile_layout":"collage"}},"video":{"type":"video","settings":{"heading":"Video","cover_image":"shopify:\/\/shop_images\/Vinos-bien.jpg","video_url":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","description":"","full_width":false}},"multi_column":{"type":"multicolumn","blocks":{"column1":{"type":"column","settings":{"title":"Column","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"}},"column2":{"type":"column","settings":{"title":"Column","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"}},"column3":{"type":"column","settings":{"title":"Column","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"}}},"block_order":["column1","column2","column3"],"settings":{"title":"Multicolumn","image_width":"full","image_ratio":"adapt","column_alignment":"left","background_style":"primary","button_label":"Button label","button_link":"","swipe_on_mobile":false}},"16361588593c2c5aca":{"type":"page","settings":{"page":"formato"}}},"order":["image_banner","1635975759fb3226ff","rich_text","collage","video","multi_column","16361588593c2c5aca"]}
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "medium"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/46471289_l.jpg",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "flex-end",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1635975759fb3226ff": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe class=\"jebbit-iframe\" src=\"https:\/\/dadoroom.jebbit.com\/pha3lojm?L=Owned+Web&deferred=true\" seamless=\"true\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen style=\"width:100%;min-height:600px;\" onload=\"function embedJebbit(t){function e(t){var e='attach'===t?window.addEventListener:window.removeEventListener;e('DOMContentLoaded',i,!1),e('load',i,!1),e('scroll',i,!1),e('resize',i,!1)}var n=document.querySelector(t);function i(){(function(t){var e=t.getBoundingClientRect(),n=t.clientHeight\/2,i=t.clientWidth\/2;return e.top>=0&&e.left>=0&&e.top<=(window.innerHeight||document.documentElement.clientHeight)-n&&e.left<=(window.innerWidth||document.documentElement.clientWidth)-i})(n)&&n.contentWindow.postMessage('startJebbitCampaign','*')}window.addEventListener('message',function(t){t&&('jebbitSessionCreated'===t.data?e('remove'):'jebbitCampaignLoaded'===t.data?i():t.data&&'redirect'===t.data.action&&t.data.options&&t.data.options.link&&(window.location.href=t.data.options.link))},!1),e('attach')}embedJebbit('.jebbit-iframe');\"><\/iframe>"
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "full_width": true
+      }
+    },
+    "collage": {
+      "type": "collage",
+      "blocks": {
+        "video": {
+          "type": "video",
+          "settings": {
+            "cover_image": "shopify:\/\/shop_images\/cocinillas_256488018_116391477_1706x960_f7fbbf3b-b7b9-49a1-a9f7-f77b84b2f73f.jpg",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video",
+            "image_padding": false
+          }
+        },
+        "product": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "video",
+        "product",
+        "collection"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
+    "video": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "cover_image": "shopify:\/\/shop_images\/Vinos-bien.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false
+      }
+    },
+    "multi_column": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "16361588593c2c5aca": {
+      "type": "page",
+      "settings": {
+        "page": "formato"
+      }
+    },
+    "16541014714e905a1d": {
+      "type": "newsletter",
+      "blocks": {
+        "1654101471385044c5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails"
+          }
+        },
+        "1654101471385044c5-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "1654101471385044c5-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1654101471385044c5-0",
+        "1654101471385044c5-1",
+        "1654101471385044c5-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "1635975759fb3226ff",
+    "rich_text",
+    "collage",
+    "video",
+    "multi_column",
+    "16361588593c2c5aca",
+    "16541014714e905a1d"
+  ]
+}

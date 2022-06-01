@@ -16,16 +16,17 @@
             {% form 'customer', class: 'newsletter-form' %}
               <input type="hidden" name="contact[tags]" value="newsletter">
               <div class="newsletter-form__field-wrapper">
-                <div class="field">
-                  
                   <input 
                     id="NewsletterFormName--{{ section.id }}"
                     type="text"
                     name="contact[first_name]"
                     class="field__input dadodado"
                     required
+                         placeholder="Nombre"
                          
                          >
+                <div class="field">
+                  
                   
                   <input
                     id="NewsletterForm--{{ section.id }}"

@@ -176,6 +176,12 @@
         "page": "formato"
       }
     },
+    "16541014753f608317": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Contact form"
+      }
+    },
     "16541014714e905a1d": {
       "type": "newsletter",
       "blocks": {
@@ -216,6 +222,7 @@
     "video",
     "multi_column",
     "16361588593c2c5aca",
+    "16541014753f608317",
     "16541014714e905a1d"
   ]
 }

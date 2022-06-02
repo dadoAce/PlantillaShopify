@@ -122,12 +122,12 @@
 
     <div id="scriptDado">
       
-        {{customer}}
+    --> {{customer | json}}
 
     </div>
     
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
-    --> {{ content_for_layout }}
+      {{ content_for_layout }}
     </main>
 
     {% section 'footer' %}

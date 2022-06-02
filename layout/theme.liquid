@@ -126,7 +126,9 @@
         <h1>Tiene una cuenta</h1>
         {% else %}
           <h1>No tiene cuenta</h1>
+          {%- comment -%}
           <script>window.location.href="https://dadoroom.myshopify.com/account/login"</script>
+          {%- endcomment -%}
       {% endif %}
 
     </div>

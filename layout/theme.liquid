@@ -122,7 +122,11 @@
 
     <div id="scriptDado">
       
-    --> {{customer }}
+      {% if customer != "" %}
+        <h1>Tiene una cuenta</h1>
+        {% else %}
+          <h1>No tiene cuenta</h1>
+      {% endif %}
 
     </div>
     

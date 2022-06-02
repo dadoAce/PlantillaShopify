@@ -127,8 +127,15 @@
         {% else %}
           <h1>No tiene cuenta</h1>
           {%- comment -%}
-          <script>window.location.href="https://dadoroom.myshopify.com/account/login"</script>
+          window.location.href="https://dadoroom.myshopify.com/account/login";
           {%- endcomment -%}
+          <script>
+            if($(".customer.login").length>0){
+              console.log("Estamos en el login")
+            }else{
+              console.log("No estamos en el login")
+            }
+          </script>
       {% endif %}
 
     </div>

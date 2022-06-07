@@ -13,16 +13,15 @@
       async function getIpClient() {
         try {
           const response = await axios.get('https://ipinfo.io/json'); 
-          if(response.data.country=="MX"){
-            alert("MEXICANO")
-           	//window.location.href = "http://www.dadoroom.com"; 
+          if(response.data.country=="MX"){ 
+           	window.location.href = "https://es.dwsheep.com/"; 
           }
         } catch (error) {
           console.error(error);
         }
       }
 
-getIpClient();
+	getIpClient();
     </script>  
     <!---DADO: CODIGO PARA SABER MI LOCACION---->
     

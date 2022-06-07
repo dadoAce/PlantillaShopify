@@ -5,6 +5,27 @@
 {% include 'avada-seo' %}
 <!-- /Added by AVADA SEO Suite -->
 
+    <!---DADO: CODIGO PARA SABER MI LOCACION---->
+    
+    
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+      async function getIpClient() {
+        try {
+          const response = await axios.get('https://ipinfo.io/json'); 
+          if(response.data.country=="MX"){
+            alert("MEXICANO")
+           	//window.location.href = "http://www.dadoroom.com"; 
+          }
+        } catch (error) {
+          console.error(error);
+        }
+      }
+
+getIpClient();
+    </script>  
+    <!---DADO: CODIGO PARA SABER MI LOCACION---->
+    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
